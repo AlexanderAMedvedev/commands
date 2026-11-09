@@ -22,7 +22,8 @@ pip install git+https://github.com/AlexanderAMedvedev/SOME_DEPENDENCY.git@SOME_T
 
 pip install opencv-python
 
-pip install . && pip uninstall -y <your-project> 
+pip install .
+pip uninstall -y <your-project>
 
 pip install uv
 uv sync --all-groups
