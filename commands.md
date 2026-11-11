@@ -27,3 +27,7 @@ pip uninstall -y <your-project>
 
 pip install uv
 uv sync --all-groups
+
+# CHANGE THE PARTICULAR GIT DEPENDENCY
+`change the tag in toml-file and command:`
+uv sync
