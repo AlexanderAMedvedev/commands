@@ -31,3 +31,9 @@ uv sync --all-groups
 # CHANGE THE PARTICULAR GIT DEPENDENCY
 `change the tag in toml-file and command:`
 uv sync
+
+`if the dependency does not have tag (update uv.lock and immediately apply the change to virtual environment):`
+uv sync --upgrade-package <package-name>
+
+# INSTALL NEW DEPENDENCY
+uv add <package-name>
